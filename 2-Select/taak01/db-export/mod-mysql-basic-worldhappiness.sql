@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 09, 2020 at 02:58 PM
+-- Generation Time: May 09, 2020 at 04:02 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.3
 
@@ -25,10 +25,10 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `2015`
+-- Table structure for table `jaar2015`
 --
 
-CREATE TABLE `2015` (
+CREATE TABLE `jaar2015` (
   `country` varchar(24) DEFAULT NULL,
   `region` varchar(31) DEFAULT NULL,
   `rank` int(3) DEFAULT NULL,
@@ -36,10 +36,10 @@ CREATE TABLE `2015` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `2015`
+-- Dumping data for table `jaar2015`
 --
 
-INSERT INTO `2015` (`country`, `region`, `rank`, `score`) VALUES
+INSERT INTO `jaar2015` (`country`, `region`, `rank`, `score`) VALUES
 ('Switzerland', 'Western Europe', 1, 7587),
 ('Iceland', 'Western Europe', 2, 7561),
 ('Denmark', 'Western Europe', 3, 7527),
@@ -202,10 +202,10 @@ INSERT INTO `2015` (`country`, `region`, `rank`, `score`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `2016`
+-- Table structure for table `jaar2016`
 --
 
-CREATE TABLE `2016` (
+CREATE TABLE `jaar2016` (
   `country` varchar(23) DEFAULT NULL,
   `region` varchar(31) DEFAULT NULL,
   `rank` int(3) DEFAULT NULL,
@@ -213,10 +213,10 @@ CREATE TABLE `2016` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Dumping data for table `2016`
+-- Dumping data for table `jaar2016`
 --
 
-INSERT INTO `2016` (`country`, `region`, `rank`, `score`) VALUES
+INSERT INTO `jaar2016` (`country`, `region`, `rank`, `score`) VALUES
 ('Denmark', 'Western Europe', 1, 7526),
 ('Switzerland', 'Western Europe', 2, 7509),
 ('Iceland', 'Western Europe', 3, 7501),

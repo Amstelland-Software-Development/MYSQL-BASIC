@@ -1,6 +1,6 @@
 # MYSQL-BASIC-TAAK-01
 
-## Een eerste query
+## SELECTEER welke informatie je wilt ophalen
 
 ## Uitleg
 
@@ -19,7 +19,12 @@ Vrij vertaald: | Geef mij  | alle kolommen | van de tabel | movies
 
 > PhpMyAdmin is heel vergevingsgezind en zal het toelaten dat je SQL keywords in kleine letters schrijft of een `;` vergeet aan het einde van je SQL statement maar net als inspringing in je code zorgt het aanhouden van deze conventies voor leesbaardere code en vermijdt je fouten als je straks met PHP SQL code gaat uitvoeren.
 
-Zoals je bij het bovenstaande voorbeeld misschien al bedacht had kun je ook aangeven in je SQL statement dat je niet *alle* kolommen maar alleen *bepaalde* kolommen terugkrijgt. Je doet dit door de namen van de kolommen op te geven gescheiden door een `,`
+De Syntax voor het schrijven van een SELECT statement is als volgt:
+```SQL
+SELECT kolom1, kolom2, ... FROM tabel_naam
+```
+
+Zoals je bij het bovenstaande voorbeeld misschien al bedacht had kun je ook aangeven in je SQL statement dat je niet *alle* kolommen maar alleen *bepaalde* kolommen terugkrijgt. Je doet dit door de namen van de kolommen op te geven gescheiden door een `,` inplaats van het gebruik van `*` dat alle kolommen van een tabel ophaalt.
 
 in onderstaand voorbeeld worden de kolommen genaamd `title` en `rating` opgehaald uit de tabel `movies`.
 ```sql
@@ -28,25 +33,33 @@ SELECT title, rating FROM movies
 
 ## Leerdoelen
 
-1. [ ] Ik kan 
+1. [ ] Ik kan een SQL statement schrijven die alle kolommen ophaalt uit een tabel
+2. [ ] Ik kan een SQL statement schrijven die alleen bepaalde kolommen ophaalt uit een tabel.
 
 ## Opdracht
 
 1. [ ] We gebruiken een nieuwe database export genaamd `mod-mysql-basic-worldhappiness.sql`. Deze vind je in de `db-export` map.
 2. [ ] Om te beginnen open PhpMyAdmin in je browser, maak een nieuwe database aan (noem deze `mod-mysql-basic-worldhappiness`) en importeer het `.sql` bestand. Vergeet niet de database eerst te selecteren voor je de import doet.
-3. [ ] Open het SQL tabblad in PhpMyAdmin en schrijf SQL queries om de onderstaande vragen te kunnen beantwoorden:   
-   **(vergeet niet na elke beantwoorde vraag de SQL statement die je geschreven hebt te copy/pasten in `antwoorden.sql` en een bookmark met een logisch genaamde label aan te maken)**
-   1. [ ] 
+3. [ ] Deze database bevat twee tabellen genaamd `jaar2015` en `jaar2016` met allebei de volgende kolommen: `country`, `region`, `rank` en `score`. Beide tabellen zien er ongeveer zo uit:
+   country | region | rank | score |
+   --------| -------| -----| ------|
+   Switzerland | Western Europe | 1 | 7587 |
+   Iceland | Western Europe | 2 | 7561 |
+   ... | ... | ... | ...|
+
+4. [ ] Open het SQL tabblad in PhpMyAdmin en schrijf SQL queries om de gevraagde gegevens te tonen:
+   **(vergeet niet na elke beantwoorde vraag de SQL statement die je geschreven hebt te copy/pasten in `antwoorden.sql` en een bookmark met een logisch genaamd label aan te maken)**
+   1. **Voorbeeld**: Schrijf een SQL statement die de hele inhoud van de `jaar2016` tabel toont.  
+    **Antwoord**: `SELECT * FROM jaar2016`
+   2. **Opdracht**: Schrijf een SQL statement die de hele inhoud van de `jaar2015` tabel toont.
+   3. **Opdracht**: Schrijf een SQL statement die alleen de landen met hun score laat zien uit 2016
+   4. **Opdracht**: Schrijf een SQL statement die alleen de regios laat zien uit 2015
+   5. **Opdracht**: Schrijf een SQL statement die alleen de regios laat zien met hun score uit 2015
+   6. **Opdracht**: Schrijf een SQL statement die alleen de score en rank laat zien uit 2016
 
 ## Eindresultaat
 
-Duidelijk maken hoe het succesvol maken van de taak eruit ziet. Dit kan tekstueel of liever als mogelijk met gebruik van screenshots / filmpjes  
-> Voorbeeld:  
-> Als je de functie goed uitvoert wordt de volgende tekst getoond in je browser: "functie uitgevoerd"  
+
 
 ## Bronnen
 
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
