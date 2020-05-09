@@ -50,11 +50,5 @@ Als het goed is heb je Xampp al geinstalleerd en weet je hoe je de database serv
 
 ## Eindresultaat
 
-
-
 ## Bronnen
 
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  
