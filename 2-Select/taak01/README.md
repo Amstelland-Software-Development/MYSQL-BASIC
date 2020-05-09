@@ -1,6 +1,6 @@
 # MYSQL-BASIC-TAAK-01
 
-## SELECTEER welke informatie je wilt ophalen
+## SELECT
 
 ## Uitleg
 
@@ -8,7 +8,7 @@ In deze taak gaan we voor het eerst echt oefenen met SQL!
 
 Een simpel SQL statement (ookwel query) zoals `SELECT * FROM movies;` is opgebouwd uit SQL keywords en de namen van kolommen en tabellen die je wilt ophalen. Je gebruikt het SELECT keyword om gegevens op te halen. Je kunt de bovenstaande SQL statement als volgt interpreteren: Geef mij de informatie uit alle kolommen van de tabel movies.
 
-Taal | Keyword | kolommen namen | keyword | tabel naam | 
+Taal | Keyword | kolom namen | keyword | tabel naam | 
 ----|---------|----------|---------|---------- |
 SQL | `SELECT` | `*`  | `FROM`  | `movies;`  
 Vrij vertaald: | Geef mij  | alle kolommen | van de tabel | movies
@@ -59,7 +59,15 @@ SELECT title, rating FROM movies
 
 ## Eindresultaat
 
+Onderstaand plaatje geeft gedeeltelijk aan wat je zou moeten terugkrijgen als je de voorbeeld opdracht i hebt uitgevoerd.
 
+![Output opdracht 1 - SELECT* FROM jaar2016](img/output.jpg)
+
+Onderstaand plaatje laat zien hoe het eruit ziet als je maar een bepaald aantal kolommen opvraagt zoals in opdracht iii.
+
+![Output opdracht 1 - SELECT* FROM jaar2016](img/output2.jpg)
 
 ## Bronnen
 
+
+[W3 Schools - SQL SELECT Statement](https://www.w3schools.com/sql/sql_select.asp) 
