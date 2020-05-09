@@ -1,14 +1,21 @@
-# MODULENAAM
-
-> Bijvoorbeeld:  
->
-> ## PHP-Basic
+# MYSQL-BASIC
 
 ## Uitleg
 
-Introducerende tekst. Uitleggen nut van de module eventueel met praktijk voorbeelden.
-> Voorbeeld:  
-> In deze module leer je de basis van PHP. Je leert o.a. welke datatypes er in PHP veel gebruikt worden, hoe je de uitvoering van je programma beinvloed door het gebruik van condities binnen if/else/elif structuren en hoe je je code logisch onderverdeeld in functies.  
+SQL is een taal die gebruikt wordt voor het manipuleren van gegevens in een database en staat voor Structured Query Language. Een query is een vraag. SQL is dus een taal die jouw als programmeur op een gestructureerde manier vragen laat stellen (aan een database server).
+
+Elk applicatie die je bouwt zal ergens gegevens opslaan, denk hierbij alleen al aan de vele online diensten die allerlei gegevens over de gebruikers opslaan. Bijna altijd gebruikt de applicatie een database op de achtergrond en wordt er gebruik gemaakt van een taal zoals SQL om de gegevens te manipuleren.  
+
+SQL wordt al gebruikt sinds 1974 en er zijn veel verschillende varianten die gemaakt zijn om een specifieke database aan te spreken (bijvoorbeeld MsSQL, een variant van Microsoft). Wij gebruik de MySQL variant om een MySQL database die wordt meegeleverd met Xampp.
+
+In de basis zijn de dingen die je kan doen met een database te vangen in de onderstaande vier acties:  
+
+1. Create (nieuwe gegevens toevoegen aan een database)
+2. Read (gegevens ophalen uit de database)
+3. Update (bestaande gegevens aanpassen)
+4. Delete (gegevens verwijderen)
+
+In deze module leer je de basis van MySQL om gegevens op te halen en te verwijderen.
 
 ## Leerdoelen
 
