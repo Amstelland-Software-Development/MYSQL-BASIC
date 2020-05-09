@@ -78,15 +78,14 @@ En net als bij andere programmeer talen kun een getal schrijven zonder aanhaling
 2. Open het SQL tabblad in PhpMyAdmin en schrijf SQL queries om de gevraagde gegevens te tonen:  
    **(vergeet niet na elke beantwoorde vraag de SQL statement die je geschreven hebt te copy/pasten in `antwoorden.sql` en een bookmark met een logisch genaamd label aan te maken)**
 
-### Opdrachten
-(gebruik gewoon SELECT * FROM bij deze opdrachten)
+> LETOP! Gebruik gewoon SELECT * FROM bij deze eerste opdrachten
 1. **Opdracht**: Schrijf een SQL statement die het land uit 2015 toont dat op de 7de plek stond dat jaar. 
 2. **Opdracht**: Schrijf een SQL statement die de rank toont van nederland in 2016.
 3. **Opdracht**: Schrijf een SQL statement die de score toont van nederland in 2015.
 4. **Opdracht**: Schrijf een SQL statement die de score toont van nederland in 2016.
 5. **Opdracht**: Schrijf een SQL statement die alleen alle landen in de regio Noord Amerika in 2015 toont.
 
-Je krijgt bij bovenstaande opdrachten telkens alle kolommen terug, dus een hele rij met informatie terwijl je soms alleen een specifike kolom terug wilt hebben. Je kunt doen door ipv `*` de kolomnamen aan te geven gescheiden door een `,`
+Je krijgt bij bovenstaande opdrachten telkens alle kolommen terug, dus een hele rij met informatie terwijl je soms alleen een specifieke kolom terug wilt hebben. Je kunt dit doen door ipv `*` de kolomnamen aan te geven gescheiden door een `,`
 
 6. **Opdracht**: Schrijf een SQL statement die *alleen* de naam van het land teruggeeft met een rank van 25 in 2016.
 7. **Opdracht**: Schrijf een SQL statement die *alleen* de namen terug geeft van alle landen met een score groter dan 7087 in 2016.
