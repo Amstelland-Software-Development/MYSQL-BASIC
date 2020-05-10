@@ -76,11 +76,11 @@ SELECT title, rating FROM movies
 
 Onderstaand plaatje geeft gedeeltelijk aan wat je zou moeten terugkrijgen als je de voorbeeld opdracht i hebt uitgevoerd.
 
-![Output opdracht 1 - SELECT* FROM jaar2016](img/output.jpg)
+![Output opdracht 1 - SELECT* FROM jaar2016](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/2-Select/taak01/img/output.jpg)
 
 Onderstaand plaatje laat zien hoe het eruit ziet als je maar een bepaald aantal kolommen opvraagt zoals in opdracht iii.
 
-![Output opdracht 1 - SELECT* FROM jaar2016](img/output2.jpg)
+![Output opdracht 1 - SELECT* FROM jaar2016](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/2-Select/taak01/img/output2.jpg)
 
 ## Bronnen
 
