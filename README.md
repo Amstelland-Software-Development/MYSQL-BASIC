@@ -32,13 +32,13 @@ Een database zoals MySQL bestaan uit tabellen met daarin gegevens. Gegevens die 
 
 Elke tabel is opgebouwd uit kolommen (Columns) en rijen (Rows), net zoals je misschien wel kent van een excel spreadsheet.
 
-![Table example](img/example-table-person.jpg)
+![Table example](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/img/example-table-person.jpg)
 
 >Bovenstaande afbeelding toon een voorbeeld van een tabel genaamd `Person` met daarin de informatie van vijf personen. Elke rij bevat dus informatie die bij één enkele persoon hoort. En elke kolom bevat één soort informatie over een persoon.
 
 Een database bevat vaak meerdere tabellen. Zo zie je in onderstaand voorbeeld een tabel `person` met informatie over personen en een tabel `product` met informatie over producten.
 
-![Example multiple database tables](/img/example-db-tables.jpg)
+![Example multiple database tables](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/img/example-db-tables.jpg)
 
 MySQL is een zogenaamde *relationele* database. De tabellen in een MySQL database hebben (bijna altijd) een relatie met elkaar. Zo hoort een product uit de `product` tabel bijvoorbeeld bij een persoon uit de `person` tabel.
 
