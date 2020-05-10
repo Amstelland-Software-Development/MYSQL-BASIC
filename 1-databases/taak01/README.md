@@ -1,7 +1,13 @@
 # MYSQL-BASIC-TAAK-01
 
 ## Werkwijze
-
+- [MYSQL-BASIC-TAAK-01](#mysql-basic-taak-01)
+  - [Werkwijze](#werkwijze)
+  - [Uitleg](#uitleg)
+  - [Leerdoelen](#leerdoelen)
+  - [Opdracht](#opdracht)
+  - [Eindresultaat](#eindresultaat)
+  - [Bronnen](#bronnen)
 ## Uitleg
 
 Als het goed is heb je Xampp al geinstalleerd en weet je hoe je de database server (MySQL) opstart. Daarnaast weet je hoe je de web server binnen Xampp (Apache) opstart zodat je gebruik kan maken van PhpMyAdmin.

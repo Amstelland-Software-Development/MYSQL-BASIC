@@ -2,6 +2,17 @@
 
 ## SELECT WHERE
 
+- [MYSQL-BASIC-TAAK-02](#mysql-basic-taak-02)
+  - [SELECT WHERE](#select-where)
+  - [Uitleg](#uitleg)
+    - [WHERE Clausule](#where-clausule)
+      - [Syntax](#syntax)
+      - [Vertaling voorbeeld](#vertaling-voorbeeld)
+  - [Leerdoelen](#leerdoelen)
+  - [Opdracht](#opdracht)
+  - [Eindresultaat](#eindresultaat)
+  - [Bronnen](#bronnen)
+
 ## Uitleg
 
 In een voorgaande taak heb je geleerd hoe je met het SELECT en FROM keyword de gegevens van één of meerdere kolommen van een tabel uit de database haalt.
@@ -13,6 +24,8 @@ Je gebruik hiervoor het `WHERE` keyword.
 ### WHERE Clausule
 
 Binnen een SQL statement noem je het WHERE gedeelte ookwel de WHERE clausule of WHERE *clause* in het engels.
+
+#### Syntax
 
 De SQL syntax is als volgt:
 ```SQL
@@ -36,6 +49,8 @@ En de SQL statement `SELECT * FROM jaar2015 WHERE rank=1` geeft dus:
    Switzerland | Western Europe | 1 | 7587 |
 
 Klinkt logisch toch? Mischien zie je al hoe je dus condities schrijft maar nog even voor de duidelijkheid wat staat er nu in gewone taal bij een SQL statement met een WHERE clausule?
+
+#### Vertaling voorbeeld
 
 Taal | SELECT statement | Keyword | kolom naam | operator | waarde |
 ----|---------|----------|---------|---------- | ---- | --- | --- | --- |

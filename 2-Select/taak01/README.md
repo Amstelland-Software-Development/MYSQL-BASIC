@@ -1,12 +1,23 @@
 # MYSQL-BASIC-TAAK-01
 
 ## SELECT
-
+- [MYSQL-BASIC-TAAK-01](#mysql-basic-taak-01)
+  - [SELECT](#select)
+  - [Uitleg](#uitleg)
+    - [Vertaling voorbeeld](#vertaling-voorbeeld)
+    - [Syntax](#syntax)
+    - [Meerdere kolommen ophalen](#meerdere-kolommen-ophalen)
+  - [Leerdoelen](#leerdoelen)
+  - [Opdracht](#opdracht)
+  - [Eindresultaat](#eindresultaat)
+  - [Bronnen](#bronnen)
 ## Uitleg
 
 In deze taak gaan we voor het eerst echt oefenen met SQL! 
 
 Een simpel SQL statement (ookwel query) zoals `SELECT * FROM movies;` is opgebouwd uit SQL keywords en de namen van kolommen en tabellen die je wilt ophalen. Je gebruikt het SELECT keyword om gegevens op te halen. Je kunt de bovenstaande SQL statement als volgt interpreteren: Geef mij de informatie uit alle kolommen van de tabel movies.
+
+### Vertaling voorbeeld
 
 Taal | Keyword | kolom namen | keyword | tabel naam | 
 ----|---------|----------|---------|---------- |
@@ -19,10 +30,14 @@ Vrij vertaald: | Geef mij  | alle kolommen | van de tabel | movies
 
 > PhpMyAdmin is heel vergevingsgezind en zal het toelaten dat je SQL keywords in kleine letters schrijft of een `;` vergeet aan het einde van je SQL statement maar net als inspringing in je code zorgt het aanhouden van deze conventies voor leesbaardere code en vermijdt je fouten als je straks met PHP SQL code gaat uitvoeren.
 
+### Syntax
+
 De Syntax voor het schrijven van een SELECT statement is als volgt:
 ```SQL
 SELECT kolom1, kolom2, ... FROM tabel_naam
 ```
+
+### Meerdere kolommen ophalen
 
 Zoals je bij het bovenstaande voorbeeld misschien al bedacht had kun je ook aangeven in je SQL statement dat je niet *alle* kolommen maar alleen *bepaalde* kolommen terugkrijgt. Je doet dit door de namen van de kolommen op te geven gescheiden door een `,` inplaats van het gebruik van `*` dat alle kolommen van een tabel ophaalt.
 

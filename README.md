@@ -4,9 +4,9 @@
 
 SQL is een taal die gebruikt wordt voor het manipuleren van gegevens in een database en staat voor Structured Query Language. Een query is een vraag. SQL is dus een taal die jouw als programmeur op een gestructureerde manier vragen laat stellen (aan een database server).
 
-Elk applicatie die je bouwt zal ergens gegevens opslaan, denk hierbij alleen al aan de vele online diensten die allerlei gegevens over de gebruikers opslaan. Bijna altijd gebruikt de applicatie een database op de achtergrond en wordt er gebruik gemaakt van een taal zoals SQL om de gegevens te manipuleren.  
+Elk applicatie die je bouwt zal ergens gegevens opslaan, denk hierbij alleen al aan de vele online diensten die allerlei gegevens over de gebruikers opslaan. Bijna altijd gebruikt de applicatie een database op de achtergrond en wordt er gebruik gemaakt van een taal zoals SQL om de gegevens op te slaan of op te halen.  
 
-SQL wordt al gebruikt sinds 1974 en er zijn veel verschillende varianten die gemaakt zijn om een specifieke database aan te spreken (bijvoorbeeld MsSQL, een variant van Microsoft). Wij gebruik de MySQL variant om een MySQL database die wordt meegeleverd met Xampp.
+SQL wordt al gebruikt sinds 1974 en er zijn veel verschillende varianten die gemaakt zijn om een specifieke database aan te spreken (bijvoorbeeld MsSQL, een variant van Microsoft). Wij gebruik de MySQL variant om een MySQL database die wordt meegeleverd met Xampp aan te spreken.
 
 In de basis zijn de dingen die je kan doen met een database te vangen in de onderstaande vier acties:  
 
