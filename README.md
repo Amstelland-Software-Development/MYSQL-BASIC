@@ -16,7 +16,7 @@ SQL wordt al gebruikt sinds 1974 en er zijn veel verschillende varianten die gem
 
 In de basis zijn de dingen die je kan doen met een database te vangen in de onderstaande vier acties ookwel afgekort tot CRUD:  
 
-![CRUD](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/DATABASE/taak01/img/crud.jpg)
+![CRUD](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/1-Databases/taak01/img/crud.jpg)
 
 1. **Create** (nieuwe gegevens toevoegen)
 2. **Read** (gegevens ophalen)
