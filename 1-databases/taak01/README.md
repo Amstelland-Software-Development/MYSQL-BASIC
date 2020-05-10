@@ -1,9 +1,6 @@
 # MYSQL-BASIC-TAAK-01
 
-## Werkwijze
-
 - [MYSQL-BASIC-TAAK-01](#mysql-basic-taak-01)
-  - [Werkwijze](#werkwijze)
   - [Uitleg](#uitleg)
   - [Leerdoelen](#leerdoelen)
   - [Opdracht](#opdracht)

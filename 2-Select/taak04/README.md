@@ -1,8 +1,8 @@
-# MYSQL-BASIC-TAAK-03
+# MYSQL-BASIC-TAAK-04
 
 ## SQL Functies & Alias
 
-- [MYSQL-BASIC-TAAK-03](#mysql-basic-taak-03)
+- [MYSQL-BASIC-TAAK-04](#mysql-basic-taak-04)
   - [SQL Functies & Alias](#sql-functies--alias)
   - [Uitleg](#uitleg)
     - [Functies overzicht](#functies-overzicht)
@@ -40,7 +40,7 @@ ROUND() | Geeft een afgerond getal terug
 
 Hoe maak je nu gebruik van deze functies? Bijna op dezelfde manier als dat je een functie in Javascript of PHP gebruikt. Stel dat we van de `fifa2018` het gemiddelde inkomen van alle spelers bij Ajax willen weten dan kunnen we de onderstaande query schrijven:
 ```SQL
-SELECT AVG(wage) FROM players WHERE club = "Ajax"
+SELECT AVG(wage) FROM players WHERE club = "Ajax";
 ```
 De WHERE clausule blijft dus hetzelfde, die geeft alleen maar aan dat je alleen de rijen wilt hebben waarvan de waarde "Ajax" is in de `club` kolom. 
 
@@ -57,7 +57,7 @@ Het gemiddelde inkomen van de spelers bij Ajax in FIFA2018 ligt dus rond de 9000
 Wat je misschien opvalt is dat de kolom naam die je terugkrijgt niet `wage` is maar letterlijk hetzelfde is als wat je invult na het SELECT keyword: `AVG(wage)`. Dit is prima als je snel even iets wilt opzoeken in een database maar is niet zo handig als je later met de gegevens iets wilt doen met PHP. Gelukkig heeft SQL een manier om de kolom namen die je terugkrijgt te veranderen in wat je zelf wilt. Dit doe je door gebruik te maken van een *Alias*. Het keyword dat hier bij hoort is `AS`, bijvoorbeeld:
 
 ```SQL
-SELECT AVG(wage) AS avg_wage FROM players WHERE club = "Ajax"
+SELECT AVG(wage) AS avg_wage FROM players WHERE club = "Ajax";
 ```
 Wat je dan terugkrijg ziet er als volgt uit:
 
@@ -81,14 +81,14 @@ Vrij vertaald: | Geef mij | het gemiddelde van de kolom wage | als avg_wage | ui
 
 De syntax is als volgt:
 ```SQL
-SELECT functie(kolom) AS eigen_naam FROM tabel_naam WHERE conditie
+SELECT functie(kolom) AS eigen_naam FROM tabel_naam WHERE conditie;
 ```
 Nu nog één punt waar je misschien al over hebt nagedacht, wat als je nu meer kolommen terug wilt krijgen? Dit werkt hetzelfde als dat je dat doen met een gewone `SELECT kolom1, kolom2, ... FROM tabel` waarbij je de kolommen scheidt met een `,`
 
 Dus stel je wilt de volgende gegevens hebben: het totale inkomen én de de gemiddelde waarde van de spelers van Ajax. 
 
 ```SQL
-SELECT club, SUM(wage) AS sum_wage, AVG(value) AS avg_value FROM players WHERE club = "Ajax"
+SELECT club, SUM(wage) AS sum_wage, AVG(value) AS avg_value FROM players WHERE club = "Ajax";
 ```
 Wat je dan terug krijgt is:
 club | sum_wage | avg_value | 

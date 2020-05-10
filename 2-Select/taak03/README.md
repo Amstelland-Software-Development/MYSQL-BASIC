@@ -43,14 +43,14 @@ Gelukkig kun je in SQL meerdere condities toevoegen aan een WHERE clause met de 
 
 Je zou dit probleem kunnen oplossen met de onderstaande SQL statement:
 ```SQL
-SELECT * FROM players WHERE nationality = "Spain" AND wage = 260000
+SELECT * FROM players WHERE nationality = "Spain" AND wage = 260000;
 ```
 
 ### Syntax
 
 De syntax is dus als volgt:
 ```SQL
-SELECT kolom1, kolom2, ... FROM tabel_naam WHERE conditie1 AND conditie2
+SELECT kolom1, kolom2, ... FROM tabel_naam WHERE conditie1 AND conditie2;
 ```
 Het werkt hetzelfde met het `OR` keyword alleen krijg je dan als je dit zou doen bij bovenstaande query alle spelers terug die *of* de spaanse nationaliteit hebben *of* meer dan 260k verdient hebben in 2018. Dus ook spaanse spelers die minder of meer hebben verdiend en spelers die meer dan 260k hebben verdient niet een spaanse nationaliteit hebben.
 
@@ -92,7 +92,3 @@ Toon voor de onderstaande vragen alleen de gevraagde gegeven
 
 ## Bronnen
 
-Een lijstje van links naar externe bronnen
-> Bijvoorbeeld:  
->[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
->[Jaap van der Veen - PHP Basiscursus Les3: Functies](https://phpbasis.jaapvdveen.nl/basiscursus-php/les-3-inleiding-functies/)  

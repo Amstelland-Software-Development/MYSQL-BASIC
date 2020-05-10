@@ -1,8 +1,8 @@
-# MYSQL-BASIC-TAAK-01
+# MYSQL-BASIC-TAAK-02
 
 ## Primary Keys
 
-- [MYSQL-BASIC-TAAK-01](#mysql-basic-taak-01)
+- [MYSQL-BASIC-TAAK-02](#mysql-basic-taak-02)
   - [Primary Keys](#primary-keys)
   - [Uitleg](#uitleg)
   - [Leerdoelen](#leerdoelen)
@@ -44,7 +44,8 @@ De `FIFA2018` database die we de hele tijd gebruiken heeft een `id` kolom maar a
 
 ## Leerdoelen
 
-1. [ ] Ik kan een DELETE statement schrijven
+1. [ ] Ik kan een DELETE statement schrijven met een WHERE clausule
+2. [ ] Ik weet waarom een primary key kolom alleen unieke waardes bevat
 
 ## Opdracht
 
@@ -66,5 +67,5 @@ De `FIFA2018` database die we de hele tijd gebruiken heeft een `id` kolom maar a
 
 ## Bronnen
 
-[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
+[W3 Schools - DELETE Statement](https://www.w3schools.com/sql/sql_delete.asp)   
 

@@ -46,7 +46,7 @@ DELETE FROM player WHERE wage > 15000;
 
 ## Leerdoelen
 
-1. [ ] Ik kan een DELETE statement schrijven
+1. [ ] Ik kan een DELETE statement schrijven met een WHERE clausule
 
 ## Opdracht
 
@@ -64,5 +64,5 @@ Schrijf DELETE statements om de onderstaande opdrachten uit te voeren
 
 ## Bronnen
 
-[W3 Schools - PHP Functions](https://www.w3schools.com/php/php_functions.asp)  
+[W3 Schools - DELETE Statement](https://www.w3schools.com/sql/sql_delete.asp)  
 

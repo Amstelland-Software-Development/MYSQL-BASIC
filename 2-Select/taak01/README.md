@@ -34,7 +34,7 @@ Vrij vertaald: | Geef mij  | alle kolommen | van de tabel | movies
 
 De Syntax voor het schrijven van een SELECT statement is als volgt:
 ```SQL
-SELECT kolom1, kolom2, ... FROM tabel_naam
+SELECT kolom1, kolom2, ... FROM tabel_naam;
 ```
 
 ### Meerdere kolommen ophalen
@@ -43,7 +43,7 @@ Zoals je bij het bovenstaande voorbeeld misschien al bedacht had kun je ook aang
 
 in onderstaand voorbeeld worden de kolommen genaamd `title` en `rating` opgehaald uit de tabel `movies`.
 ```sql
-SELECT title, rating FROM movies
+SELECT title, rating FROM movies;
 ```
 
 ## Leerdoelen
