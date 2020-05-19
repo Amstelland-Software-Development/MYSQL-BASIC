@@ -27,7 +27,7 @@ Als het goed is heb je Xampp al geinstalleerd en weet je hoe je de database serv
 3. Maak een nieuwe database aan.
    > Je zal veel verschillende databases aanmaken dus het slim om een logische naam te kiezen zodat je het overzicht behoudt. Noem de database voor deze taak: `mod_mysql_basic_imdb_movies`.  
 4. Selecteeer je nieuwe database: als het goed is zie je de onderstaande regel staan boven in PhpMyAdmin:  
-![Database Selected](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/1-databases/taak01/img/db-selected.jpg)
+![Database Selected](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/1-databases/taak01/img/db-selected.jpg?raw=true)
 
 5. We gaan nu een export van de database importeren in de nieuw aagemaakte database. Voor je dat doet, open het bestand `imdb_movies.sql` dat in de `db-export` map staat bij deze taak in VS Code en bekijk de inhoudt.
     > Het ziet er misschien ingewikkeld uit en er zijn veel termen die misschien niet duidelijk zijn maar als je goed kijkt zie je wel zien dat er een tabel wordt aangemaakt (CREATE TABLE) en dat er gegevens in die tabel worden gezet later (INSERT INTO). Deze code is letterlijk de SQL code die wordt uitgevoerd als je de datbase importeert.
