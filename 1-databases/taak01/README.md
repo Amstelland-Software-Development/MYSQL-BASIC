@@ -16,7 +16,7 @@ Als het goed is heb je Xampp al geinstalleerd en weet je hoe je de database serv
 1. [ ] Ik kan via het Xampp Controlepaneel de MySQL database server opstarten
 2. [ ] Ik kan via het Xampp Controlepaneel de Apache web server opstarten
 3. [ ] Ik kan PhpMyAdmin openen in een browser
-4. [ ] Ik kan een export van een database importeren in een nieuwe database in PhpMyAdmin.
+4. [ ] Ik kan een een database bestand importeren in een nieuwe database in PhpMyAdmin.
 5. [ ] Ik kan een SQL query uitvoeren in PhpMyAdmin
 6. [ ] Ik kan een uitgevoerde SQL query bookmarken in PhpMyAdmin
 
@@ -29,8 +29,8 @@ Als het goed is heb je Xampp al geinstalleerd en weet je hoe je de database serv
 4. Selecteeer je nieuwe database: als het goed is zie je de onderstaande regel staan boven in PhpMyAdmin:  
 ![Database Selected](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/1-databases/taak01/img/db-selected.jpg?raw=true)
 
-5. We gaan nu een export van de database importeren in de nieuw aagemaakte database. Voor je dat doet, open het bestand `imdb_movies.sql` dat in de `db-export` map staat bij deze taak in VS Code en bekijk de inhoudt.
-    > Het ziet er misschien ingewikkeld uit en er zijn veel termen die misschien niet duidelijk zijn maar als je goed kijkt zie je wel zien dat er een tabel wordt aangemaakt (CREATE TABLE) en dat er gegevens in die tabel worden gezet later (INSERT INTO). Deze code is letterlijk de SQL code die wordt uitgevoerd als je de datbase importeert.
+5. We gaan nu een database bestand importeren in de nieuw aagemaakte database. Voor je dat doet, open het bestand `imdb_movies.sql` dat in de `db-export` map staat bij deze taak in VS Code en bekijk de inhoudt.
+    > Het ziet er misschien ingewikkeld uit en er zijn veel termen die misschien niet duidelijk zijn maar als je goed kijkt zie je wel zien dat er een tabel wordt aangemaakt (CREATE TABLE) en dat er gegevens in die tabel worden gezet later (INSERT INTO). Deze code is letterlijk de SQL code die wordt uitgevoerd als je de database importeert.
 
 6. Importeer de database: kies uit het menu de knop `Import` en dan in het scherm dat wordt geladen `Choose File` en selecteer het bestand `imdb_movies.sql` in de `db-export` map en kies `Go`.  
    ![PhpMyAdmin import](https://github.com/ROC-van-Amsterdam-College-Amstelland/MYSQL-BASIC/blob/master/1-databases/taak01/img/phpmyadmin-options-import.jpg)  
