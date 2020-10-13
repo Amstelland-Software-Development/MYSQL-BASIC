@@ -15,7 +15,7 @@
 
 In deze taak gaan we voor het eerst echt oefenen met SQL! 
 
-Een simpel SQL-statement (ookwel query) zoals `SELECT * FROM movies;` is opgebouwd uit SQL-keywords en de namen van kolommen en tabellen die je wilt ophalen. Je gebruikt het SELECT-keyword om gegevens op te halen. Je kunt de bovenstaande SQL-statement als volgt interpreteren: geef mij de informatie uit alle kolommen van de tabel movies.
+Een simpele SQL-statement (ookwel query) zoals `SELECT * FROM movies;` is opgebouwd uit SQL-keywords en de namen van kolommen en tabellen die je wilt ophalen. Je gebruikt het SELECT-keyword om gegevens op te halen. Je kunt de bovenstaande SQL-statement als volgt interpreteren: geef mij de informatie uit alle kolommen van de tabel movies.
 
 ### Vertaling voorbeeld
 
